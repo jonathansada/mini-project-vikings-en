@@ -3,9 +3,6 @@ import random
 import time
 import os
 
-## TODO ##
-# Showing count of wins
-
 viking_names = ["Arne", "Birger", "Bjørn", "Bo", "Erik", "Frode", "Gorm", "Halfdan", "Harald", "Knud", "Kåre", "Leif", "Njal", "Roar", "Rune", "Sten", "Skarde", "Sune", "Svend", "Troels", "Toke", "Torsten", "Trygve", "Ulf", "Ødger", "Åge", "Astrid", "Bodil", "Frida", "Gertrud", "Gro", "Estrid", "Hilda", "Gudrun", "Gunhild", "Helga", "Inga", "Liv", "Randi", "Signe", "Sigrid", "Revna", "Sif", "Tora", "Tove", "Thyra", "Thurid", "Yrsa", "Ulfhild", "Åse"]
 p1_name = p2_name = ""
 p1_win = p2_win = 0
