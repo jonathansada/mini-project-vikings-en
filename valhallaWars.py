@@ -132,8 +132,8 @@ while playmore != 'n':
         # If Saxon won we switch players
         pvikings = 1 if pvikings == 2 else 2
         #Add the winner count
-        p1_win = p1_win+1 if pvikings==2 else p1_win
-        p2_win = p2_win+1 if pvikings==1 else p2_win
+        p1_win = p1_win+1 if pvikings==1 else p1_win
+        p2_win = p2_win+1 if pvikings==2 else p2_win
 
     print(f"Win count: {p1_name}: {p1_win} | {p2_name}: {p2_win}")
 
